@@ -1,0 +1,350 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+ 
+ body {
+     background-color: #b0c4b1;
+     height: 1000vh;
+ }
+ /* Adjustments for smaller screens */
+ @media only screen and (max-width: 800px) {}
+    
+  
+ .navbar {
+    width: 100%;
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ddd;
+ }
+ 
+    ul {
+        flex-direction: column;
+        text-align: center;
+    }
+ 
+ ul li {
+    list-style: none;
+    margin-right: 20px;
+ }
+  ul li {
+     list-style: none;
+     display: inline-block;
+     padding: 10px 16px;
+  }
+ 
+  ul li a {
+    font-size: 1.5rem; /* Adjust the base font size */
+    font-weight: bold;
+    text-decoration: none;
+    color: #008b8b;
+ }
+ 
+  ul li a:hover{
+     color: purple
+  }
+ 
+ 
+ 
+ 
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+ 
+  body {
+    text-align: center; /* Center the content horizontally */
+ }
+ 
+ div.gallery-container {
+    display: inline-block; /* Keep the galleries in a row */
+    text-align: center; /* Reset text alignment for inner elements */
+ }
+ 
+ div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+    display: inline-block; /* Display galleries in a row */
+ }
+ 
+ div.gallery img {
+    width: 100%;
+    height: auto;
+ }
+ 
+ div.desc {
+    padding: 15px;
+    text-align: center;
+ }
+ 
+ 
+  #logo {
+    width: 150px;
+    margin-left: auto;
+    float: right;
+    margin-top: -50px;
+  }
+ 
+ 
+ 
+ 
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+ 
+ <!---- ABOUT PART ----->
+  .about{
+     width: 100%;
+     padding: 100px 0px;
+  }
+ 
+  .about img{
+    height: auto;
+    width: 430px;
+  }
+ 
+  .about-info {
+    width: 550px;
+  }
+ 
+ .main1 {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;      
+ }
+ 
+ .text h2{
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+ }
+ .text h5{
+    letter-spacing: 2px;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+ }
+ 
+ .container {
+    display: flex;
+    align-items: center;
+ }
+ 
+ .text {
+    flex: 1;
+    padding: 0 20px; /* Adjust the padding as needed */
+ }
+ 
+ 
+ 
+ 
+ <!---- skills ----->
+ 
+  .bar {
+    box-sizing: border-box
+ }
+ 
+ .container {
+   width: 100%;
+   background-color: #ffe5ec;
+   text-emphasis-color: white;
+ }
+ 
+ #Skills {
+    text-align: center;
+    color: black;
+    font-size: 75px;
+ }
+ 
+ .skills { 
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+  
+   color: white;
+ }
+ 
+ #H {
+    color: black;
+ }
+ #C {
+    color: black;
+ }
+ #J {
+    color: black;
+ }
+ #P {
+    color: black;
+ }
+ 
+ .html {width: 90%; background-color: #4a5759; color: white;}
+ .css {width: 80%; background-color: #4a5759; color: white;}
+ .js {width: 65%; background-color: #4a5759; color: white;}
+ .php {width: 60%; background-color: #4a5759;color: white;}
+ 
+ 
+ 
+ 
+ 
+ /* Certification part*/
+ #Certificate {
+    color: black;
+    text-align: center;
+    margin-top: 0; /* Resetting default margin */
+    font-size: 75px;
+ }
+ 
+ #Credentials {
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image horizontally */
+ }
+ 
+ .Certificate {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Optional: Set a height to center vertically in the viewport */
+ }
+ 
+ 
+ 
+ 
+ 
+ /* CONTACT part*/
+ .title h2 {
+    color: black;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align:center;
+ 
+ }
+ .contacts {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffe5ec;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+ 
+ }
+ .contacts > div {
+    margin-left: 50px;
+    margin-right: 50px;
+    
+ }
+  
+ /* COMMENT SECTION */
+ 
+ .comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 18px;
+    color: #777;
+    border: 1px;
+ }
+ .comment-form button{
+    margin: 10px 0;
+    border: none;
+    background-color: #d0d0d0;
+    padding: 10px;
+    border-radius: 3px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* Responsive Adjustments */
+ @media screen and (max-width: 992px) {
+    .navbar {
+      width: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .navbar
+    {
+      width: 100%;
+    }
+  }
+ @media (max-width: 700px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+ 
+    ul li {
+        margin-right: 0;
+    }
+ 
+    .about img {
+        width: 100%;
+    }
+ 
+    .text h2 {
+        font-size: 28px;
+    }
+ 
+    .text h5 {
+        font-size: 16px;
+    }
+ 
+    .container {
+        padding: 0 10px; /* Adjust padding for better spacing on smaller screens */
+    }
+ 
+    .bars p {
+        font-size: 16px;
+    }
+ 
+    .skills {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+ 
+    #Credentials {
+        max-width: 100%;
+    }
+ 
+    .Certificate {
+        padding: 10px;
+    }
+ 
+    .title h2 {
+        font-size: 28px;
+    }
+ 
+    .contacts {
+        padding: 10px;
+        margin: 0;
+    }
+ }
+  
